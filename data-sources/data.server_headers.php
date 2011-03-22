@@ -8,11 +8,10 @@
 			return array(
 					 'name' => 'Server Headers',
 					 'author' => array(
-							'name' => 'Alistair Kearney',
-							'website' => 'http://21degrees.com.au',
-							'email' => 'alistair@21degrees.com.au'),
-					 'version' => '1.1',
-					 'release-date' => '2008-08-19');	
+							'name' => 'Symphony Team',
+							'website' => 'http://symphony-cms.com'),
+					 'version' => '1.2',
+					 'release-date' => '2011-03-22');	
 		}
 
 		function grab(&$param_pool){
