@@ -4,11 +4,10 @@
 	
 		public function about(){
 			return array('name' => 'Data Source: Server Headers',
-						 'version' => '1.1',
-						 'release-date' => '2008-08-19',
-						 'author' => array('name' => 'Alistair Kearney',
-										   'website' => 'http://www.pointybeard.com',
-										   'email' => 'alistair@pointybeard.com'),
+						 'version' => '1.2',
+						 'release-date' => '2011-03-22',
+						 'author' => array('name' => 'Symphony Team',
+										   'website' => 'http://symphony-cms.com'),
 						 'description' => ''
 				 	);
 		}
