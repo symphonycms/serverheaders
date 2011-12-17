@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="serverheaders" status="released" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+	<name>Server Headers</name>
+	<description>Add `$_SERVER` values to your XML</description>
+	<repo type="github">https://github.com/symphonycms/serverheaders</repo>
+	<url type="discuss">http://symphony-cms.com/discuss/thread/404/</url>
+	<types />
+	<authors>
+		<author>
+			<name github="symphonycms" symphony="team">Symphony Team</name>
+			<website>http://symphony-cms.com</website>
+		</author>
+	</authors>
+	<releases>
+		<release version="1.2" date="2011-03-22" min="2.0.6" />
+	</releases>
+</extension>
