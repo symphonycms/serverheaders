@@ -18,17 +18,8 @@
 			
 			$result = new XMLElement("server-headers");
 			
-			$included = array(
-				'HTTP_REFERER',
-				'HTTP_USER_AGENT',
-				'HTTP_HOST',
-				'SERVER_NAME',
-				'SERVER_ADDR',
-				'SERVER_PORT',
-				'REMOTE_ADDR',
-				'QUERY_STRING',
-				'HTTP_X_FORWARDED_FOR'
-			);
+			$included = Symphony::Configuration()->get('include', 'server-headers');
+			$included = explode(',', $included);
 			
 			foreach($included as $header){
 				if(strlen(trim($_SERVER[$header])) == 0) continue;
